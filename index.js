@@ -1,6 +1,6 @@
 const {FormulaParser} = require('./grammar/hooks');
 const {DepParser} = require('./grammar/dependency/hooks');
-const lexer = require('./lexing');
+const lexer = require('./grammar/lexing');
 const SSF = require('./ssf/ssf');
 const FormulaError = require('./formulas/error');
 
